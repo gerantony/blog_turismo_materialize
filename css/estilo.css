@@ -1,0 +1,11 @@
+body{
+  background:url(../img/backt.jpg) no-repeat;
+  background-size: cover;
+}
+h5{
+  font-style: italic;;
+}
+.logot img{
+  border-radius: 15px;
+  margin-top: 15px;
+}

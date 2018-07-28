@@ -29,14 +29,6 @@ h5{
   max-height: 175px;
   width: 80%;
 }
-.publicacion ul{
-  border: 0 !important;
-  width: 100%
-}
-.publicacion li{
-  border: 0 !important;
-}
-
 }.perfil{
   width: 80%;
 }
@@ -45,6 +37,9 @@ label{
 }
 button{
   margin-right: 35px;
+}
+.publicacion-img{
+  margin: 10px;
 }
 @media (max-width: 600px) {
   .publicacion-img{

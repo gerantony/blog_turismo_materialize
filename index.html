@@ -29,7 +29,10 @@
                 <div class="nav-wrapper">
                   <ul class="right">
                       <li>
-                        <a class="waves-effect waves-light btn light-blue darken-4"><span class="hide-on-med-and-down">Inicio</span><i class="material-icons left">home</i></a>
+                        <a class="waves-effect waves-light btn light-blue darken-4">
+                          <span class="hide-on-med-and-down">Inicio</span>
+                          <i class="material-icons left">home</i>
+                        </a>
                       </li>
                       <li>
                         <a class="waves-effect waves-light avatar btn light-blue darken-4">
@@ -108,34 +111,32 @@
           </div>
         </div>
         </div>
-
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
         <div class="row"><!--BLOQUE DE Acticulo-->
-          <div class="s12 m12 l9 col white publicacion valign-wrapper">
-            <div class="card z-depth-0">
-              <div class="card-content">
-                <span class="card-title">Arrecifes de Coral Islas de la Bahía
-                  <ul class="collection with-header transparent">
-                    <li class="collection-header transparent"></li>
-                    <li class="collection-item transparent">
-                      <div class="chip">
-                        <i class="material-icons right">date_range</i>
-                        12 febrero 2018
-                      </div>
-                      <div class="chip">
-                        <i class="material-icons right">location_on</i>
-                        Tegucigalpa, Honduras C.A.
-                      </div>
-                    </li>
-                  </ul>
-                </span>
-                <p><img class="responsive-img publicacion-img" src="img\coral1.jpg"> Nadar en sus cristalinas aguas es uno de los placeres más grandes en esta zona, además bucear y hacer snorkel para apreciar mejor la variedad de corales que forman parte de La Barrera de Coral de Utila y la variada vida marina del lugar como tortugas, plantas, caballitos de mar, tortugas Carey, pecesitos de colores y peces como barracudas y trompeta.
-                  <br>
-                Son más de 500 especies de peces las que habitan en ese privilegiado lugar, así como 65 especies de corales duros y 350 especies de moluscos.
-                <br>
-                Al sumergirte en las aguas y observar la Barrera de Coral de Utila vivirás una increíble experiencia que te hará sentir el deseo de quedarte viviendo en ese paraíso tropical o regresar a él lo más pronto posible.</p>
-              </div>
-            </div>
+          <div class="s12 m12 l9 col white publicacion">
+                <img class="thumb left publicacion-img" src="img\coral1.jpg">
+                <span class="card-title"><h5>Arrecifes de Coral Islas de la Bahía</h5>
+                  <div class="chip left">
+                    <i class="material-icons right">date_range</i>
+                    12 febrero 2018
+                  </div>
+                  <div class="chip left">
+                    <i class="material-icons right">location_on</i>
+                    Tegucigalpa, Honduras C.A.
+                  </div>
+                 </span>
+                 <br>
+                 <br>
+            <p>Nadar en sus cristalinas aguas es uno de los placeres más grandes en esta zona, además bucear y hacer snorkel para apreciar mejor la variedad de corales que forman parte de La Barrera de Coral de Utila y la variada vida marina del lugar como tortugas, plantas, caballitos de mar, tortugas Carey, pecesitos de colores y peces como barracudas y trompeta.
+              <br>
+            Son más de 500 especies de peces las que habitan en ese privilegiado lugar, así como 65 especies de corales duros y 350 especies de moluscos.
+            <br>
+            Al sumergirte en las aguas y observar la Barrera de Coral de Utila vivirás una increíble experiencia que te hará sentir el deseo de quedarte viviendo en ese paraíso tropical o regresar a él lo más pronto posible.
+            <br>
+            El año pasado los arrecifes coralinos hondureños estuvieron entre los mejor evaluados del Caribe  por su buen manejo y estado de conservación.  Lastimosamente, este estado de conservación sufre un cambio dramático debido a un evento llamado blanquecimiento,  el cual ocurre en la Isla de Útila, en Cayos Cochinos  y probablemente también en otras áreas.
+          </p>
           </div>
+
           <div class="s12 m12 l3 col"><!--Perfil del creador-->
             <div class="card z-depth-0">
               <div class="card-content valign center-align">
@@ -149,31 +150,38 @@
             </div>
           </div>
         </div>
-        <div class="s12 m12 l9 col light-blue darken-1 white-text center-align"><!--BLOQUE DE FORMULARIO-->
-          <div class="row">
-            <h4>Deja tu comentario</h4>
-            <form>
-
-                <div class="input-field col s6">
-                  <i class="material-icons prefix">account_circle</i>
-                  <input id="nombre" type="text" class="validate">
-                  <label for="nombre">Nombre:</label>
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+        <div class="row">
+          <div class="col s12 m12 l9 light-blue darken-1 white-text"><!--BLOQUE DE FORMULARIO-->
+            <div class="row">
+              <h4>Deja tu comentario</h4>
+              <form>
+                  <div class="input-field col s6">
+                    <br>
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="nombre" type="text" class="validate">
+                    <br>
+                    <label for="nombre">Nombre:</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <br>
+                    <i class="material-icons prefix">email</i>
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Correo Electronico:</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <br>
+                    <i class="material-icons prefix">comment</i>
+                    <textarea id="textarea1" class="materialize-textarea" rows="3"></textarea>
+                    <label for="textarea1">Deja tu Comentario</label>
+                  </div>
+                  <hr>
+                  <button class="btn-flat waves-effect waves-light white right hide-on-small-only" type="submit" name="action">Enviar</button>
+                </form>
                 </div>
-                <div class="input-field col s6">
-                  <i class="material-icons prefix">account_circle</i>
-                  <input id="email" type="email" class="validate">
-                  <label for="email">Correo Electronico:</label>
-                </div>
-              </div>
-              <div class="input-field col s12">
-                <i class="material-icons prefix">comment</i>
-                <textarea id="textarea1" class="materialize-textarea"></textarea>
-                <label for="textarea1">Deja tu Comentario</label>
-              </div>
-              <button class="btn-flat waves-effect waves-light white right hide-on-small-only" type="submit" name="action">Enviar</button>
-            </form>
-
+          </div>
         </div>
+
       </div>
     </div>
   </body>

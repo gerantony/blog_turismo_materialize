@@ -8,7 +8,11 @@ h5{
 }
 .logot img{
   border-radius: 15px;
-  margin-top: 15px;
+  margin-top: 0.5rem;
+}
+.menuhead{
+  margin: 0 !important;
+  padding: 0 0 0 0;
 }
 .social-menus img{
   width: 70%;
@@ -24,4 +28,26 @@ h5{
 .img-bloque3 img{
   max-height: 175px;
   width: 80%;
+}
+.publicacion ul{
+  border: 0 !important;
+  width: 100%
+}
+.publicacion li{
+  border: 0 !important;
+}
+
+}.perfil{
+  width: 80%;
+}
+label{
+  color: white !important;
+}
+button{
+  margin-right: 35px;
+}
+@media (max-width: 600px) {
+  .publicacion-img{
+    width: 100%;
+  }
 }

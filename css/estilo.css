@@ -1,6 +1,7 @@
 body{
   background:url(../img/backt.jpg) no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 h5{
   font-style: italic;;
@@ -8,4 +9,19 @@ h5{
 .logot img{
   border-radius: 15px;
   margin-top: 15px;
+}
+.social-menus img{
+  width: 70%;
+}
+.img-bloque img{
+  max-height: 270px;
+  width: 100%;
+}
+.img-bloque2 img{
+  max-height: 560px;
+  width: 100%;
+}
+.img-bloque3 img{
+  max-height: 175px;
+  width: 80%;
 }
